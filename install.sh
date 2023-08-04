@@ -143,7 +143,7 @@ install_xray-ui() {
     chmod +x /usr/bin/xray-ui
     config_after_install
     #echo -e "If it is a fresh installation， the default web port is ${green}54321${plain}，and the default username and password are ${green}admin${plain}"
-    #echo -e "Please make sure that this port is not occupied by another application， ${yellow}and that port 54321 is released${plain}"
+    #echo -e "Please make sure that this port is not occupied by another application， ${yellow}and that port 8080 is released${plain}"
     #    echo -e "To change 54321 to another port， enter the xray-ui command to do so，Also make sure that the port you are modifying is also released"
     #echo -e ""
     #echo -e "If it's an update panel， access the panel the way you did before"
