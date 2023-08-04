@@ -167,7 +167,7 @@ reset_config() {
         return 0
     fi
     /usr/local/xray-ui/xray-ui setting -reset
-    echo -e "All panel settings have been reset to their default values，now please restart the panel and use the default port ${green}54321${plain} to access the panel"
+    echo -e "All panel settings have been reset to their default values，now please restart the panel and use the default port ${green}8080${plain} to access the panel"
     confirm_restart
 }
 
